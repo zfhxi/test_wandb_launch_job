@@ -1,0 +1,50 @@
+2023-11-15 14:01:11,172 INFO    MainThread:77137 [wandb_setup.py:_flush():76] Current SDK version is 0.16.0
+2023-11-15 14:01:11,172 INFO    MainThread:77137 [wandb_setup.py:_flush():76] Configure stats pid to 77137
+2023-11-15 14:01:11,172 INFO    MainThread:77137 [wandb_setup.py:_flush():76] Loading settings from /Users/Julian/.config/wandb/settings
+2023-11-15 14:01:11,172 INFO    MainThread:77137 [wandb_setup.py:_flush():76] Loading settings from /Users/Julian/Projects/Gits/test_wandb_launch_job/wandb/settings
+2023-11-15 14:01:11,172 INFO    MainThread:77137 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-11-15 14:01:11,172 INFO    MainThread:77137 [wandb_setup.py:_flush():76] Applying setup settings: {'_cli_only_mode': True}
+2023-11-15 14:01:11,172 INFO    MainThread:77137 [wandb_init.py:_log_setup():524] Logging user logs to /Users/Julian/Projects/Gits/test_wandb_launch_job/wandb/run-20231115_140111-fsml111c/logs/debug.log
+2023-11-15 14:01:11,173 INFO    MainThread:77137 [wandb_init.py:_log_setup():525] Logging internal logs to /Users/Julian/Projects/Gits/test_wandb_launch_job/wandb/run-20231115_140111-fsml111c/logs/debug-internal.log
+2023-11-15 14:01:11,173 INFO    MainThread:77137 [wandb_init.py:init():564] calling init triggers
+2023-11-15 14:01:11,173 INFO    MainThread:77137 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {}
+2023-11-15 14:01:11,173 INFO    MainThread:77137 [wandb_init.py:init():614] starting backend
+2023-11-15 14:01:11,173 INFO    MainThread:77137 [wandb_init.py:init():618] setting up manager
+2023-11-15 14:01:11,179 INFO    MainThread:77137 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-11-15 14:01:11,184 INFO    MainThread:77137 [wandb_init.py:init():624] backend started and connected
+2023-11-15 14:01:11,196 INFO    MainThread:77137 [wandb_init.py:init():716] updated telemetry
+2023-11-15 14:01:11,196 INFO    MainThread:77137 [wandb_init.py:init():749] communicating run to backend with 90.0 second timeout
+2023-11-15 14:01:12,028 INFO    MainThread:77137 [wandb_run.py:_on_init():2254] communicating current version
+2023-11-15 14:01:12,294 INFO    MainThread:77137 [wandb_run.py:_on_init():2263] got version response 
+2023-11-15 14:01:12,294 INFO    MainThread:77137 [wandb_init.py:init():800] starting run threads in backend
+2023-11-15 14:01:14,422 INFO    MainThread:77137 [wandb_run.py:_console_start():2233] atexit reg
+2023-11-15 14:01:14,422 INFO    MainThread:77137 [wandb_run.py:_redirect():2088] redirect: wrap_raw
+2023-11-15 14:01:14,422 INFO    MainThread:77137 [wandb_run.py:_redirect():2153] Wrapping output streams.
+2023-11-15 14:01:14,422 INFO    MainThread:77137 [wandb_run.py:_redirect():2178] Redirects installed.
+2023-11-15 14:01:14,422 INFO    MainThread:77137 [wandb_init.py:init():841] run started, returning control to user process
+2023-11-15 14:01:14,422 INFO    MainThread:77137 [agent.py:print_status():316] agent fsml111c polling on queues GPU0, running 0 out of a maximum of 1 jobs
+2023-11-15 14:01:26,420 INFO    MainThread:77137 [agent.py:print_status():316] agent fsml111c polling on queues GPU0, running 0 out of a maximum of 1 jobs
+2023-11-15 14:01:47,950 INFO    MainThread:77137 [agent.py:print_status():316] agent fsml111c polling on queues GPU0, running 0 out of a maximum of 1 jobs
+2023-11-15 14:02:09,172 INFO    MainThread:77137 [agent.py:run_job():433] [35mlaunch:[0m Launch agent received job:
+{'runQueueItemId': 'UnVuUXVldWVJdGVtOjQ3ODUwOTAzNg==',
+ 'runSpec': {'_wandb_job_collection_id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjExNTg5Njc0OQ==',
+             'author': 'czm',
+             'entity': 'czm',
+             'job': 'czm/TEST/test_job1:latest',
+             'overrides': {'args': [], 'entry_point': [], 'run_config': {}},
+             'project': 'TEST',
+             'resource': 'local-container',
+             'resource_args': {'local-container': {}}}}
+
+2023-11-15 14:02:09,453 INFO    MainThread:77137 [agent.py:run_job():438] Parsing launch spec
+2023-11-15 14:02:09,753 INFO    MainThread:77137 [agent.py:print_status():316] agent fsml111c running 1 out of a maximum of 1 jobs: UnVuUXVldWVJdGVtOjQ3ODUwOTAzNg==
+2023-11-15 14:02:09,888 INFO    MainThread:77137 [agent.py:_task_run_job():614] Fetching and validating project...
+2023-11-15 14:02:11,932 INFO    MainThread:77137 [utils.py:_fetch_git_repo():479] Fetching git repo
+2023-11-15 14:02:13,304 INFO    MainThread:77137 [agent.py:_task_run_job():616] Fetching resource...
+2023-11-15 14:02:13,304 INFO    MainThread:77137 [agent.py:_task_run_job():621] Loading backend
+2023-11-15 14:02:13,463 INFO    MainThread:77137 [docker_builder.py:login():98] [35mlaunch:[0m No registry configured, skipping login.
+2023-11-15 14:02:13,723 INFO    MainThread:77137 [utils.py:docker_image_exists():679] Checking if base image exists...
+2023-11-15 14:02:13,846 INFO    MainThread:77137 [agent.py:_task_run_job():647] Backend loaded...
+2023-11-15 14:02:30,681 INFO    MainThread:77137 [agent.py:print_status():316] agent fsml111c running 1 out of a maximum of 1 jobs: UnVuUXVldWVJdGVtOjQ3ODUwOTAzNg==
+2023-11-15 14:02:51,810 INFO    MainThread:77137 [agent.py:print_status():316] agent fsml111c polling on queues GPU0, running 0 out of a maximum of 1 jobs

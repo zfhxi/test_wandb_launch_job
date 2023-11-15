@@ -1,0 +1,35 @@
+{
+    "os": "macOS-14.1.1-arm64-arm-64bit",
+    "python": "3.8.16",
+    "heartbeatAt": "2023-11-15T06:01:12.299250",
+    "startedAt": "2023-11-15T06:01:11.163831",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "launch-agent",
+        "-e",
+        "czm",
+        "-q",
+        "GPU0",
+        "--max-jobs=1"
+    ],
+    "state": "running",
+    "host": "ZMGGMateBook14.lan",
+    "username": "julian",
+    "executable": "/opt/juliansApp/miniforge3/envs/xgboost/bin/python",
+    "cpu_count": 10,
+    "cpu_count_logical": 10,
+    "disk": {
+        "/": {
+            "total": 926.3517189025879,
+            "used": 618.2343940734863
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 32.0
+    }
+}

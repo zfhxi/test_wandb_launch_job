@@ -1,0 +1,46 @@
+
+[34m[1mwandb[39m[22m: [35mlaunch:[39m agent fsml111c polling on queues GPU0, running 0 out of a maximum of 1 jobs
+[34m[1mwandb[39m[22m: [35mlaunch:[39m agent fsml111c polling on queues GPU0, running 0 out of a maximum of 1 jobs
+[34m[1mwandb[39m[22m: [35mlaunch:[39m agent fsml111c polling on queues GPU0, running 0 out of a maximum of 1 jobs
+[34m[1mwandb[39m[22m: [35mlaunch:[39m Launch agent received job:
+[34m[1mwandb[39m[22m: {'runQueueItemId': 'UnVuUXVldWVJdGVtOjQ3ODUwOTAzNg==',
+[34m[1mwandb[39m[22m:  'runSpec': {'_wandb_job_collection_id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjExNTg5Njc0OQ==',
+[34m[1mwandb[39m[22m:              'author': 'czm',
+[34m[1mwandb[39m[22m:              'entity': 'czm',
+[34m[1mwandb[39m[22m:              'job': 'czm/TEST/test_job1:latest',
+[34m[1mwandb[39m[22m:              'overrides': {'args': [], 'entry_point': [], 'run_config': {}},
+[34m[1mwandb[39m[22m:              'project': 'TEST',
+[34m[1mwandb[39m[22m:              'resource': 'local-container',
+[34m[1mwandb[39m[22m:              'resource_args': {'local-container': {}}}}
+[34m[1mwandb[39m[22m:
+[34m[1mwandb[39m[22m: [35mlaunch:[39m Launching job: czm/TEST/test_job1:latest
+[34m[1mwandb[39m[22m: [35mlaunch:[39m agent fsml111c running 1 out of a maximum of 1 jobs
+[34m[1mwandb[39m[22m:   2 of 2 files downloaded.
+[34m[1mwandb[39m[22m: [35mlaunch:[39m Launching run in docker with command: docker run --rm -e WANDB_BASE_URL=https://api.wandb.ai -e WANDB_API_KEY -e WANDB_PROJECT=test -e WANDB_ENTITY=czm -e WANDB_LAUNCH=True -e WANDB_RUN_ID=xyq2rvbl -e WANDB_USERNAME=czm -e WANDB_LAUNCH_QUEUE_NAME=GPU0 -e WANDB_LAUNCH_QUEUE_ENTITY=czm -e WANDB_LAUNCH_TRACE_ID=UnVuUXVldWVJdGVtOjQ3ODUwOTAzNg== -e WANDB_CONFIG='{}' -e WANDB_ARTIFACTS='{"_wandb_job": "czm/TEST/test_job1:latest"}' czm__test__test_job1:bdca255b
+wandb: Currently logged in as: czm. Use `wandb login --relogin` to force relogin
+wandb: WARNING Project is ignored when running from wandb launch context. Ignored wandb.init() arg project when running running from launch.
+wandb: Tracking run with wandb version 0.16.0
+wandb: Run data is saved locally in /home/julian/wandb/run-20231115_060215-xyq2rvbl
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run 1115_060214
+wandb: ⭐️ View project at https://wandb.ai/czm/TEST
+wandb: 🚀 View run at https://wandb.ai/czm/TEST/runs/xyq2rvbl
+wandb: - 0.002 MB of 0.002 MB uploaded
+
+
+wandb:
+wandb:
+wandb: Run history:
+wandb: seed ▁
+wandb:
+wandb: Run summary:
+wandb: seed 2222
+wandb:
+wandb: 🚀 View run 1115_060214 at: https://wandb.ai/czm/TEST/runs/xyq2rvbl
+wandb: ️⚡ View job at https://wandb.ai/czm/TEST/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjExNTg5Njc0OQ==/version_details/v1
+wandb: Synced 4 W&B file(s), 0 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20231115_060215-xyq2rvbl/logs
+/home/julian
+[34m[1mwandb[39m[22m: [35mlaunch:[39m Job finished with ID: 80742
+[34m[1mwandb[39m[22m: [35mlaunch:[39m agent fsml111c polling on queues GPU0, running 0 out of a maximum of 1 jobs
+Aborted!
